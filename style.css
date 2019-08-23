@@ -267,10 +267,9 @@ details[open] summary:before {
 .reviews {
 	width: 100%;
 	margin: 0;
-	outline: 2px solid black;
+	/*outline: 2px solid black;*/
 	box-sizing: border-box;
 	padding: 50px;
-
 }
 .reviews:after{
 	content: "";
@@ -287,20 +286,46 @@ details[open] summary:before {
 	line-height: 36px;
 	margin: 0 auto;
 	margin-bottom: 30px;
-
 }
 .reviews-section-1 {
 	float: left;
 }
+/*.reviews-section-1:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}*/
 .reviews-section-2 {
 	float: right;
+}
+/*.reviews-section-2:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}*/
+.reviews-div{
+	margin: 0 0 40px 0;
 }
 .reviews-img {
 	width: 75px;
 	height: 75px;
-	border-radius: 50%;
-	background-color: #445161
-
+	
+}
+.reviews-content{
+	background-color: #ebebeb;
+	float: right;
+	margin: 0 0 0 43px;
+	padding: 11px;
+	position: relative;
+}
+.reviews-content:before{
+	content: ''; 
+    position: absolute;
+    border: 20px solid transparent;	
+    border-right: 20px solid #ebebeb;
+    left: -37px;
 }
 .reviews-text{
 	width: 436px;
@@ -309,7 +334,7 @@ details[open] summary:before {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
-
+	margin: 0 0 15px 0;
 }
 .reviews-name{
 	width: 67px;
@@ -318,4 +343,5 @@ details[open] summary:before {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
+	margin: 0 0 0 0;
 }
