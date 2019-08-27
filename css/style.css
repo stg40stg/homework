@@ -349,7 +349,7 @@ details[open] summary:before {
 .buy{
 	width: 100%;
 	margin: 0;
-	outline: 2px solid black;
+	/*outline: 2px solid black;*/
 	box-sizing: border-box;
 	padding: 50px;
 }
@@ -378,30 +378,30 @@ details[open] summary:before {
 }
 .buy-card-1 {
 	width: 300px;
-	height: 306px;
 	background-color: #445162;	
 	border: 1px solid #445162;
 	border-radius: 1%;
 	margin-right: 45px;
 	margin-left: 90px;
 	box-sizing: border-box;
+	padding-bottom: 20px;
 }
 .buy-card-2 {
 	width: 300px;
-	height: 404px;
 	background-color: #445162;
 	border: 1px solid #445162;
 	border-radius: 1%;
 	margin-right: 45px;
 	box-sizing: border-box;
+	padding-bottom: 20px;
 }
 .buy-card-3 {
 	width: 300px;
-	height: 499px;
 	background-color: #445162;
 	border: 1px solid #445162;
 	border-radius: 1%;
 	box-sizing: border-box;
+	padding-bottom: 20px;
 }
 .buy-card-title {
 	
@@ -455,12 +455,202 @@ details[open] summary:before {
 	border-radius: 5px;
 	margin: 0 auto;
 }
+.contacts{
+	width: 100%;
+	margin: 0;
+	/*outline: 2px solid black;*/
+	box-sizing: border-box;
+	padding: 50px;
+	background-color: #445162
+}
+.contacts:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+.contacts-title{
+	width: 117px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	margin: 0 auto;
+}
+.contacts-form{
+	float: left;
+	margin: 31px 0 0 199px;
+}
+#name {
+	display: block;
+	width: 500px;
+	height: 40px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-bottom: 21px;
+	color: #445162;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;;
+}
+#email {
+	display: block;
+	width: 500px;
+	height: 40px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-bottom: 21px;
+	color: #445162;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+#comments {
+	display: block;
+	width: 500px;
+	height: 170px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-bottom: 21px;
+	color: #445162;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+#contacts-submit {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin: 0 auto;
+	color: #445162;
+	font-family: "Arial - Bold MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.contacts-adress{
+	float: right;
+	margin-right: 160px;
+	margin-top: 31px;
+}
+.contacts-adress-skype{
+	display: block;
+	width: 165px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	position: relative;
+	margin-bottom: 21px;
+}
+.contacts-adress-skype:after {
+	content: "";	
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: -40px;
+	top: -5px;
+	background-image: url(img/skype_icon.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contacts-icq{
+	display: block;
+	width: 165px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	position: relative;
+	margin-bottom: 21px;
+}
+.contacts-icq:after {
+	content: "";	
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: -40px;
+	top: -5px;
+	background-image: url(img/icq_icon.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contacts-email{
+	display: block;
+	width: 165px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	position: relative;
+	margin-bottom: 21px;
+}
+.contacts-email:after {
+	content: "";	
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: -40px;
+	top: -5px;
+	background-image: url(img/email_icon.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contacts-number{
+	display: block;width: 165px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	position: relative;
+	margin-bottom: 21px;
+}
+.contacts-number:after {
+	content: "";	
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: -40px;
+	top: -5px;
+	background-image: url(img/phone_icon.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .footer{
+	width: 100%;
+	margin: 0;
+	/*outline: 2px solid black;*/
+	box-sizing: border-box;
+	display: flex;
 
 }
-.footer-header{
-
-}
-.footer-input{
-	
+.footer-text{
+	width: 284px;
+	color: #445162;
+	font-family: "Arial MT";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.3px;
+	margin: 0 auto;
+	align-items: flex-end;
 }
