@@ -455,6 +455,9 @@ details[open] summary:before {
 	border-radius: 5px;
 	margin: 0 auto;
 }
+.buy-card-botton:hover {
+	background-color: #BCB6B6;
+}
 .contacts{
 	width: 100%;
 	margin: 0;
@@ -493,7 +496,9 @@ details[open] summary:before {
 	font-family: "Arial MT";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 24px;;
+	line-height: 24px;
+	border: none;
+	padding-left: 10px;
 }
 #email {
 	display: block;
@@ -507,6 +512,8 @@ details[open] summary:before {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
+	border: none;
+	padding-left: 10px;
 }
 #comments {
 	display: block;
@@ -520,6 +527,8 @@ details[open] summary:before {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
+	border: none;
+	padding-left: 10px;
 }
 #contacts-submit {
 	display: block;
@@ -534,6 +543,10 @@ details[open] summary:before {
 	font-weight: 400;
 	line-height: 24px;
 	text-transform: uppercase;
+	border: none;
+}
+#contacts-submit:hover {
+	background-color: #BCB6B6;
 }
 .contacts-adress{
 	float: right;
@@ -635,8 +648,68 @@ details[open] summary:before {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.contacts-link{ 
-	margin: 0 0 0 45px;
+.contacts-icon{
+	display: inline-flex;
+	margin: 0 0 0 30px;
+
+}
+.contacts-twit{
+ 	width: 43px;
+	height: 43px;
+	/*border: 1px solid black;*/
+	background-image: url(img/social_buttons.png);
+	margin: 0 5px 0 0;
+}
+.contacts-twit:hover{
+	background-image: url(img/social_buttons_hover.png);
+}
+.contacts-face{
+	width: 43px;
+ 	height: 43px;
+ 	/*border: 1px solid black;*/
+ 	background-image: url(img/social_buttons.png);
+ 	margin: 0 5px 0 0;
+ 	background-position: -50px;
+}
+.contacts-face:hover{
+	background-image: url(img/social_buttons_hover.png);
+	background-position: -50px;
+}
+.contacts-inst{
+	width: 43px;
+	height: 43px;
+	/*border: 1px solid black;*/
+	background-image: url(img/social_buttons.png);
+	margin: 0 5px 0 0;
+	background-position: -98px;
+}
+.contacts-inst:hover{
+	background-image: url(img/social_buttons_hover.png);
+	background-position: -98px;
+}
+.contacts-goog{
+	width: 43px;
+ 	height: 43px;
+ 	/*border: 1px solid black;*/
+ 	background-image: url(img/social_buttons.png);
+ 	margin: 0 5px 0 0;
+ 	background-position: -149px;
+}
+.contacts-goog:hover{
+	background-image: url(img/social_buttons_hover.png);
+	background-position: -149px;
+}
+.contacts-yout{
+	width: 43px;
+ 	height: 43px;
+ 	/*border: 1px solid black;*/
+ 	background-image: url(img/social_buttons.png);
+ 	margin: 0 5px 0 0;
+ 	background-position: -198px;
+}
+.contacts-yout:hover{
+	background-image: url(img/social_buttons_hover.png);
+	background-position: -198px;
 }
 .footer{
 	width: 100%;
